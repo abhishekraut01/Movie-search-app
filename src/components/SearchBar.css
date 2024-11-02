@@ -1,0 +1,31 @@
+/* Basic styling for the search bar container */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* Styling for the search input */
+  .search-bar input {
+    width: 100%;
+    max-width: 500px; /* Limits the maximum width */
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #bdc3c7; /* Light gray border */
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Focus styling */
+  .search-bar input:focus {
+    border-color: #f39c12; /* Golden border on focus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+  }
+  
+  /* Placeholder styling */
+  .search-bar input::placeholder {
+    color: #7f8c8d; /* Light gray placeholder text */
+    font-style: italic;
+  }
+  
